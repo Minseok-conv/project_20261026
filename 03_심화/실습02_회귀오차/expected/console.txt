@@ -1,0 +1,9 @@
+ model  MAE_ms  RMSE_ms     R2
+ Dummy 541.260  658.745 -0.162
+Linear 551.797  639.996 -0.097
+Linear의 큰 잔차 3건
+            elapsed_ms  predicted_ms  residual_ms  absolute_error_ms
+request_id                                                          
+R042               149      1397.986    -1248.986           1248.986
+R034              2608      1413.929     1194.071           1194.071
+R014              1936      1112.939      823.061            823.061

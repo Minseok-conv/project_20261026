@@ -1,0 +1,4 @@
+﻿scale,K,train_F1,valid_F1,median_unchanged
+none,5,0.7096774193548387,0.4,True
+standard,5,0.46153846153846156,0.2,True
+minmax,5,0.42857142857142855,0.4,True

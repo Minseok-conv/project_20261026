@@ -1,0 +1,5 @@
+   scale  K  train_F1  valid_F1  median_unchanged
+    none  5     0.710       0.4              True
+standard  5     0.462       0.2              True
+  minmax  5     0.429       0.4              True
+숫자와 문자 처리를 유지하고, 숫자의 스케일만 바꾸었습니다.

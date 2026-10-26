@@ -1,0 +1,14 @@
+regression / valid 20건
+ model    scale  MAE_ms  RMSE_ms     R2
+ Dummy standard 541.260  658.745 -0.162
+Linear standard 551.797  639.996 -0.097
+ KNN15 standard 530.063  641.788 -0.103
+classification / valid 20건
+   model    scale  Accuracy    F1  Precision  Recall  TN  FP  FN  TP
+   Dummy standard      0.70 0.000      0.000   0.000  14   0   6   0
+Logistic standard      0.60 0.333      0.333   0.333  10   4   4   2
+    KNN3 standard      0.75 0.545      0.600   0.500  12   2   3   3
+선택 모델: {'regression': 'Linear', 'classification': 'KNN3'}
+선택 K / 분류: 3 회귀: 15
+outputs에 비교표·탐색표·예측·선택 기록·모델을 저장했습니다.
+test는 보관만 했으며 모델에 전달하지 않았습니다.

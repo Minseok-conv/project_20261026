@@ -1,0 +1,7 @@
+ input  distance  target
+     4       0.8      40
+     2       1.2      20
+     1       2.2      10
+uniform: [23.33]
+distance: [28.06]
+역거리 가중 손계산: 28.06

@@ -1,0 +1,4 @@
+{
+  "regression": "Linear",
+  "classification": "KNN3"
+}
